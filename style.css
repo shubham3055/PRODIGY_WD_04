@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 320px;
+}
+
+input {
+  padding: 8px;
+  width: 60%;
+}
+
+button {
+  padding: 8px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.weather-box {
+  margin-top: 20px;
+}
